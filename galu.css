@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+   }
+   .hero {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),#3551b5) ,url(.picture\pic5.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   form {
+    width: 90%;
+    max-width: 600px;
+   }
+   .input-group {
+margin-bottom: 30px;
+position: relative;
+
+   }
+   input,textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+   }
+   label {
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    cursor: text;
+   }
+   .btn {
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+   }
+   .btn:hover {
+    background-color: black;
+   }
+   input:focus~label,
+   input:valid~label,
+   textarea:focus~label,
+   textarea:valid~label
+
+    {
+    top: -35px;
+    font-size: 14px;
+
+   }
+   .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .row .input-group {
+    flex-basis: 48%;
+   }
+   .hero,.h1{
+      text-align: right;
+      top:0;
+   }
+   .colm{
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .colm .input-group{
+      flex-basis: 48%;
+   }
